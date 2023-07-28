@@ -12,7 +12,7 @@ namespace PruebaCSharp
             // Leer el número ingresado por el usuario
             string input = Console.ReadLine();
 
-            // Intentar convertir el número ingresado a entero
+            // Intentar convertir el numero ingresado a entero
             if (int.TryParse(input, out int numero))
             {
                 // Realizar una operación en matemática simple (por ejemplo, multiplicar por 2)
